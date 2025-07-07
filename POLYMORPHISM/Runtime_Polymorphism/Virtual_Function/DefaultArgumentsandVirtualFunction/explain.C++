@@ -16,7 +16,7 @@ int main(){
 Base * ptr;
 Derived b;
 ptr = &b;
-ptr->show();
+// ptr->show();
 return 0;
 }
 

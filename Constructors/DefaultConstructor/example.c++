@@ -65,7 +65,7 @@ int main(){
   cout << "public:" << endl;
   cout << "    E() {" << endl;
   cout << "  // then enters your E() body"<<endl;
-  cout << "        cout << \"…\" << endl;  // " << endl;
+  cout << "        cout << ... << endl;  // " << endl;
   cout << "    }" << endl;
   cout << "};" << endl;
   cout << "----------------------------------------------------------------" << endl;

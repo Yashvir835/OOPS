@@ -14,6 +14,8 @@ int main(){
   }
 
   string line;
+
+  // std::getline() reads entire lines, including spaces.
   while(getline(read_file,line)){
     cout<<line<<endl;
 
@@ -39,6 +41,8 @@ int main(){
     cerr<<"Thier is an error in opening of the file"<<endl;
   }
   string line1;
+
+  // std::getline() reads entire lines, including spaces.
   while(getline(read_file1,line1)){
    cout<<line1<<endl;
   }

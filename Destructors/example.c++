@@ -8,7 +8,7 @@ class Test{
     cout<<"Constructor is called "<<count<<" times"<<endl;
   }
   ~Test(){
-    cout<<"Destructor is called "<<count<<" times"<<endl;
+    cout<<"Destructor is called "<<count--<<" times"<<endl;
   }
 };
 int main(){

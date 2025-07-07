@@ -1,4 +1,3 @@
-ChatGPT said:
 Multilevel inheritance is simply a way to build a chain of classes, where each class adds its own features on top of those it inherited before. You can think of it as a family tree of classes:
 1.)Base class (Grandfather)
 >>>>Defines some basic data and behavior.
